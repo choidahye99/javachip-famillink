@@ -58,8 +58,8 @@ _현재 우리는 가족의 안보를 묻거나 얼굴 한 번 보기 힘든 사
 
 
 ### ✅ 프로젝트 결과물
-- 중간 발표 자료
-- 최종 발표 자료
+- [중간 발표 자료](https://github.com/choidahye99/javachip-famillink/tree/main/Present/%EA%B8%B0%ED%9A%8D%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C)
+- [최종 발표 자료](https://github.com/choidahye99/javachip-famillink/blob/main/Present/%EC%B5%9C%EC%A2%85%20%EB%B0%9C%ED%91%9C/%EC%84%9C%EC%9A%B8_2%EB%B0%98_A208_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf)
 ---
 
 
