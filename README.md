@@ -2,8 +2,8 @@
 
 ### 🎦 소개 영상 
 
-SSAFY 8기 2학기 첫 프로젝트 FAMIL_LINK
-
+FAMIL_LINK 프로젝트
+[![Video Label](img/01.png)](https://youtu.be/d2Xw3gKlAFk)
 ---
 
 ### 🎦 프로젝트 진행 기간
