@@ -191,8 +191,9 @@ _현재 우리는 가족의 안보를 묻거나 얼굴 한 번 보기 힘든 사
 
 <details>
     <summary>✨ 프론트엔드 </summary>
-    
-    ```
+
+
+```
 📦FE
  ┣ 📂mobile
  ┃ ┣ 📂public
@@ -312,6 +313,7 @@ _현재 우리는 가족의 안보를 묻거나 얼굴 한 번 보기 힘든 사
  ┣ 📜.gitignore
  ┗ 📜README.md
 ```
+
 
 </details>    
 
