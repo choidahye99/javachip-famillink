@@ -502,5 +502,6 @@ _현재 우리는 가족의 안보를 묻거나 얼굴 한 번 보기 힘든 사
 - [최종 발표 자료](https://github.com/choidahye99/javachip-famillink/tree/main/Present/%EC%B5%9C%EC%A2%85%20%EB%B0%9C%ED%91%9C)
 ---
 
-
+### ✅ 역할분담
+![역할](img/역할분담.png)
 
