@@ -41,7 +41,7 @@ _현재 우리는 가족의 안보를 묻거나 얼굴 한 번 보기 힘든 사
 <br>
 
 ![QR로그인](img/QR로그인.png)
-
+---
 
 #### ⬛ 안면 인식 로그인 : 가족계정 로그인 후 멤버 인식
 
@@ -51,28 +51,33 @@ _현재 우리는 가족의 안보를 묻거나 얼굴 한 번 보기 힘든 사
 
 
 ![안면인식](img/안면인식.png)
-
+---
 
 #### ⬛ 소통유도
-
+<br>
+다른 영상 전송 서비스가 아닌 패밀링크에 유저가 모일 수 있게 특별한 차별점이 필요했습니다. 그리고 그 차별점이 '소통 부재'라는 문제를 해결하는 핵심과 맞닿아 있어야 한다고 생각했습니다. 고민 끝에 나온 기능이 바로 '소통유도' 기능입니다. 데이터베이스에 기록된 개인별 영상편지 전송 날짜 및 일정을 가져와 TTS를 활용하여 소통 유도를 할 수 있게 구현하였습니다.
+<br>
 
 ![소통유도](img/소통유도.png)
+---
 
 #### ⬛ 음성 인식 기반 영상편지 송수신
+<br>
+스크린 기반 IoT 기기의 가장 큰 문제점이 무엇일까요? 바로 고연령, 혹은 저연령층이 사용하기 어렵다는 것입니다. 패밀링크는 가족 구성원 간의 소통을 돕고 유대감을 향상시키자는 목표를 가지고 고안되었기 때문에, 가족 구성원의 연령에 상관 없이 기기를 사용할 수 있도록 만들었습니다. 그 과정에서 구현한 기술이 바로 음성인식 입니다. "녹화"라는 단어를 말한 후, 편지를 보내고자 하는 가족의 이름을 말하면 영상편지 녹화가 시작됩니다. 수신의 경우 사용자의 얼굴 인식이 끝나면 최신 5개를 바로 자동재생 할 수 있게 제작하였습니다.
+<br>
 
 ![영상편지수신](img/영상편지%20수신.png)
 ![영상편지전송](img/영상편지%20전송.png)
-
-### 🎦 MOBILE WEB 주요 기능
-
-#### ⬛ QR코드 생성
 
 
 
 ---
 
 
-### ✅ 사용한 기술 스택
+### ✅ 사용한 기술 스택 및 시스템 구성도
+
+![시스템구성도](img/시스템%20구성도.png)
+
 ---
 
 ### ✅ 프로젝트 파일 구조도
@@ -445,20 +450,50 @@ _현재 우리는 가족의 안보를 묻거나 얼굴 한 번 보기 힘든 사
     
 </details>  
 
----
-
-### ✅ 시스템 구성도
-
-![시스템구성도](img/시스템%20구성도.png)
 
 ---
 
 
 ### ✅ 협업툴
+
+<img src="https://img.shields.io/badge/GitLab-d23f1f?style=flat-square&logo=Gitlab&logoColor=white"/> <br>
+<img src="https://img.shields.io/badge/Jira Software-0052CC?style=flat-square&logo=Jira Software&logoColor=white"/> <br>
+<img src="https://img.shields.io/badge/Mattermost-0058CC?style=flat-square&logo=Mattermost&logoColor=white"/> <br>
+<img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/> <br>
+<img src="https://img.shields.io/badge/Google Meet-00897B?style=flat-square&logo=Google Meet&logoColor=white"/> <br>
+<img src="https://img.shields.io/badge/KakaoTalk-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=white"/> <br>
+
+
 ---
 
 
 ### ✅ 협업 환경
+
+#### GitLab
+- 프로젝트 시작 전 커밋 컨벤션을 정한 후 협업 진행 
+- 프론트엔드, 백엔드, IoT로 나누어 협업
+
+#### Jira
+- Story Point를 1, 3, 5, 8로 정하고 세분화하여 작업을 효율적으로 진행하기 위해 노력
+- Epic : 프론트엔드, 백엔드, IoT 구분
+- Story : 구현 기능 구분
+
+#### Mattermost, KakaoTalk
+- 팀단톡방을 만들어 자료 공유 및 현황 공유 
+    - 주 사용 프로그램 : Mattermost
+    - 100MB 이상의 자료 공유 : KakaoTalk
+- 확인 시 흔적(스티커, 답변 등) 남기기를 그라운드룰로 정하여 소통
+
+#### Notion
+- 문서화가 필요한 자료 기록
+- 간트차트 작성
+- 회의록 작성
+- 참고자료 업로드
+- 기능구현 현황 파악
+
+#### Google Meet, WebEx
+- 격리 등의 이슈가 있을 경우 화상채팅으로 진행
+
 ---
 
 
@@ -466,9 +501,6 @@ _현재 우리는 가족의 안보를 묻거나 얼굴 한 번 보기 힘든 사
 - [중간 발표 자료](https://github.com/choidahye99/javachip-famillink/tree/main/Present/%EA%B8%B0%ED%9A%8D%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C)
 - [최종 발표 자료](https://github.com/choidahye99/javachip-famillink/tree/main/Present/%EC%B5%9C%EC%A2%85%20%EB%B0%9C%ED%91%9C)
 ---
-
-
-### 💌 서비스 화면
 
 
 
